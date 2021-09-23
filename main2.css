@@ -42,10 +42,9 @@ body{
     
     display: flex;
     flex-direction: column;
-    min-width: 400px;
-    max-width: 401px;
-    margin-left:100px;
-    margin-right: 100px;
+    min-width: 500px;
+    max-width: 510px;
+    margin:30px 100px 30px 100px;
  
 }
 .container3{
@@ -84,14 +83,19 @@ body{
 }
 
 .headline-text{
-    margin-bottom: -15px;
-    text-align: center;
-    font-family: 'Red Hat Display';
+margin-bottom: 15px;
+text-align: center;
+font-family: 'Red Hat Display';
 font-style: normal;
-font-weight: 1000;
+font-weight: 800;
 font-size: 64px;
 line-height: 64px;
+max-width: 450px;
+margin-left: 25px;
 
+}
+.b1{
+    margin-top: 30px;
 }
 
 .meet{
@@ -99,12 +103,13 @@ line-height: 64px;
 }
 
 .text{
-    text-align: center;
-    font-family: 'Red Hat Display';
+text-align: center;
+font-family: 'Red Hat Display';
 font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 28px;
+
 }
 
 .item{
@@ -166,7 +171,7 @@ font-size: 40px;
 line-height: 44px;
 text-align: center;
 margin-top: -5px;
-max-width: 400px;
+max-width: 430px;
 
 }
 
@@ -190,7 +195,13 @@ color: #4D96A9;
     margin-bottom: 60px;
 
 }
-
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
 
 .text1{
 text-align: center;
@@ -199,7 +210,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 18px;
 line-height: 26px;
-max-width: 500px;
+max-width: 480px;
 }
 
 .footer{
@@ -229,6 +240,7 @@ max-width: 500px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    width: 100%;
 }
 
 .line2{
@@ -250,13 +262,15 @@ max-width: 500px;
 .text2{
     font-size: 20.5px;
     margin-top: 20px;
-    margin-right: 40px;
+    margin-left: 150px;
+    margin-right: 100px;
+    max-width: 370px;
 
 }
 
 .fh2{
     margin-left: -125px;
-    margin-right: 125px;
+   
 }
 
 .b1{
